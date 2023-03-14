@@ -9,7 +9,7 @@ function Layout({ title, children }) {
       <Head>
         <title>{title ? title + ' ━ e-Galaxy' : 'e-Galaxy'}</title>
         <meta name="description" content="E-commerce Website" />
-        <link rel="shortcut icon" href="favicon.ong" type="image/png" />
+        <link rel="icon" href="favicon.png" type="image/png" />
       </Head>
       <Toaster />
       <section className=" flex min-h-screen  flex-col justify-between">
